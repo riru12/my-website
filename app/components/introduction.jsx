@@ -25,6 +25,8 @@ const Introduction = () => {
                         1000,
                         'a Digital Artist',
                         1000,
+                        'riru',
+                        1000,
                     ]}
                     wrapper="span"
                     speed={50}
