@@ -14,7 +14,7 @@ const Introduction = () => {
             transition={{ duration:0.5 }}
             className="col-span-8 place-self-center text-center sm:text-left justify-self-center"
         >
-            <h1 className="text-white mt-4 mb-4 text-5xl lg:text-6xl font-extrabold">
+            <h1 className="text-white mt-4 mb-4 text-4xl lg:text-6xl font-extrabold">
                 <span className="text-[#3667e3]">Hello, I'm{" "}</span>
                 <br></br>
                 <TypeAnimation
