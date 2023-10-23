@@ -28,6 +28,9 @@ const Introduction = () => {
                         'riru',
                         1000,
                     ]}
+                    style={{
+                        display: 'inline-block',
+                    }}
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
