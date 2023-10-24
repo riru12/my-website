@@ -22,13 +22,13 @@ const AboutSection = () =>{
                 </p>
                 <h2 className="text-[#ADB7BE] text-right">My Links</h2>
                 <div className="socials mt-4 flex flex-row gap-8 justify-end">
-                    <Link href="https://www.linkedin.com/in/brill-rina/">
+                    <Link href="https://www.linkedin.com/in/brill-rina/ " target="_blank">
                         <Image src={LinkedinIcon} alt="LinkedinIcon" width={30} />
                     </Link>
-                    <Link href="https://github.com/riru12">
+                    <Link href="https://github.com/riru12" target="_blank">
                         <Image src={GithubIcon} alt="GithubIcon" width={30} />
                     </Link>
-                    <Link href="https://twitter.com/artofriru">
+                    <Link href="https://twitter.com/artofriru" target="_blank">
                         <Image src={TwitterIcon} alt="TwitterIcon" width={30} />
                     </Link>
                 </div>
