@@ -20,7 +20,7 @@ const AboutSection = () =>{
                     <br></br><br></br>
                     I am also a freelance digital artist! I like to paint and draw in my leisure time. I am very knowledgeable in graphic design as well. If you're interested in seeing some of my artwork, check out <span className="text-[#a8bae8]"><a href="https://twitter.com/artofriru" target="_blank">my twitter</a></span>!
                 </p>
-                <h2 className="text-[#ADB7BE] text-right">My Links</h2>
+                <h2 className="text-white text-right">My Links</h2>
                 <div className="socials mt-4 flex flex-row gap-8 justify-end">
                     <Link href="https://www.linkedin.com/in/brill-rina/ " target="_blank">
                         <Image src={LinkedinIcon} alt="LinkedinIcon" width={30} />
