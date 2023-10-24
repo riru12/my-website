@@ -13,7 +13,7 @@ const AboutSection = () =>{
             <Image src="/images/makima.jpeg" width={500} height={500} />
             <div>
                 <h2 className="text-4xl font-bold mb-4">About Me</h2>
-                <p className="text-base lg:text-lg mb-10">
+                <p className="text-[#ADB7BE] text-base lg:text-lg mb-10">
                     Hi! 👋 I am Brill Riña and I'm currently finishing my Computer Science degree in the University of the Philippines Diliman. 
                     <br></br><br></br>
                     I have experience working with Python, C, JavaScript, React, Next, HTML, and Git. I am always eager to learn new things and looking to expand my skill set and hone it further. You can check out my stuff in my <span className="text-[#a8bae8]"><a href="https://github.com/riru12" target="_blank">GitHub profile</a></span>!
