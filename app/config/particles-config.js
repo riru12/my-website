@@ -47,7 +47,7 @@ const particlesConfig = {
           "mode": "trail",
           "parallax": {
             "enable": true,
-            "force": 80,
+            "force": 70,
             "smooth": 10
           }
         },
