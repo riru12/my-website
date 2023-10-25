@@ -9,8 +9,10 @@ import TwitterIcon from "../../public/twitter-logo.svg";
 const AboutSection = () =>{
     return(
       <section id="about">
-        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-            <Image src="/images/makima.jpeg" width={500} height={500} />
+        <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 sm:py-16 xl:px-16">
+            <div className="ml-0 md:ml-10">
+                <Image src="/images/makima.jpeg" width={500} height={500} />
+            </div>
             <div>
                 <h2 className="text-4xl font-bold mb-4">About Me</h2>
                 <p className="text-[#ADB7BE] text-base lg:text-lg mb-10">
