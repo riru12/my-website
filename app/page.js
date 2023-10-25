@@ -12,7 +12,7 @@ export default function Home() {
       <div className="container mt-0 sm:mt-24 mx-auto px-4 py-20">
         <Introduction />
         <AboutMe />
-        <Contact />
+        {/*<Contact />*/}
       </div>
     </main>
   )
