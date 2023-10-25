@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image"
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import { EnvelopeIcon,PhoneIcon } from '@heroicons/react/24/solid'
 
 const Introduction = () => {
   return (
@@ -38,9 +39,17 @@ const Introduction = () => {
                     repeat={Infinity}
                 />
             </h1>
-            <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-10 sm:mr-10">
+            <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6 md:mb-10 sm:mr-10">
                 Currently a BS Computer Science undergraduate at 🌻 UP Diliman.
             </p>
+            <div className="flex flex-col md:flex-row items-center sm:items-start md:gap-6 gap-2 md:mr-10 text-[#ADB7BE]">
+                <div className ="flex gap-3">
+                    <EnvelopeIcon className="h-6 w-6"/> bgrina@up.edu.ph
+                </div>
+                <div className="flex gap-1">
+                    <PhoneIcon className="h-6 w-6"/> {"+63 (123)456-7890"}
+                </div>
+            </div>
             {/*
             <div>
                 <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-white text-black hover:bg-slate-300">About Me</button>
