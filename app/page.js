@@ -8,7 +8,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col">
       <Navbar />
       <ParticleBackground />
-      <div className="container mt-24 mx-auto px-4 py-20">
+      <div className="container mt-0 sm:mt-24 mx-auto px-4 py-20">
         <Introduction />
         <AboutMe />
       </div>
