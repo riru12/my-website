@@ -44,7 +44,7 @@ const Introduction = () => {
             </p>
             <div className="flex flex-col md:flex-row items-center sm:items-start md:gap-6 gap-2 md:mr-10 text-[#ADB7BE]">
                 <div className ="flex gap-3">
-                    <EnvelopeIcon className="h-6 w-6"/> bgrina@up.edu.ph
+                    <EnvelopeIcon className="h-6 w-6"/> bjg.rina@gmail.com
                 </div>
                 <div className="flex gap-1">
                     <PhoneIcon className="h-6 w-6"/> {"+63 (123)456-7890"}
