@@ -23,7 +23,7 @@ const Navbar = () => {
 
     return(
         <nav className="fixed top-0 left-0 right-0 z-10">
-            <div className="flex flex-wrap items-center justify-between ml-0 mr-auto p-4 sm:p-1 bg-[#111111]">
+            <div className="flex flex-wrap items-center justify-between ml-0 mr-auto p-4 md:p-1 bg-[#111111]">
                 <div className="ml-2 md:ml-4">
                     <Link href={"/"}>
                         <Image src={Logo} alt="Logo" width={30}/>
