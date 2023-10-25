@@ -8,13 +8,12 @@ const navLinks =[
     {
         title: "About",
         path: "#about",
-    },
-]
-
-    {/*{
+    },    
+    {
         title: "Contact",
         path: "#contact",
-    }*/}
+    }
+]
 
 const Navbar = () => {
     return(
