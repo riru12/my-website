@@ -41,10 +41,12 @@ const Introduction = () => {
             <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-10 sm:mr-10">
                 Currently a BS Computer Science undergraduate at 🌻 UP Diliman.
             </p>
+            {/*
             <div>
                 <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-white text-black hover:bg-slate-300">About Me</button>
                 <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-black border border-slate-500 hover:bg-slate-950 hover:text-[#ADB7BE]">Contact Me</button>
             </div> 
+            */}
         </motion.div>
             <div className="col-span-4 place-self-center mt-5 lg:mt-0 order-first sm:order-last justify-self-center"> {/* Picture Div, takes the remaining 5*/}
                 <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative">
