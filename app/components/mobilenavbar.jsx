@@ -3,7 +3,7 @@ import NavLink from './navlink'
 
 const MobileNavbar = ({links}) => {
     return(
-        <div className="opacity-50">
+        <div>
             <ul className="flex flex-col py-4 items-center">
                 {links.map((link, index) => (
                     <li key={index}>
