@@ -8,7 +8,7 @@ import { EnvelopeIcon,PhoneIcon } from '@heroicons/react/24/solid'
 const Introduction = () => {
   return (
     <section>
-        <div className="grid grid-cols-1 sm:grid-cols-12"> {/*Section Div*/}
+        <div className="grid grid-cols-1 p-5 sm:grid-cols-12"> {/*Section Div*/}
         <motion.div
             initial={{ opacity:0 }}
             animate={{ opacity:1 }}
