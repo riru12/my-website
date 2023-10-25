@@ -11,7 +11,7 @@ const Introduction = () => {
         <motion.div
             initial={{ opacity:0 }}
             animate={{ opacity:1 }}
-            transition={{ duration:0.5 }}
+            transition={{ duration:1 }}
             className="col-span-8 place-self-center text-center sm:text-left justify-self-center"
         >
             <h1 className="text-white mt-4 mb-4 text-4xl lg:text-6xl font-extrabold">
